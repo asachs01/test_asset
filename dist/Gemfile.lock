@@ -1,0 +1,23 @@
+PATH
+  remote: include/checkout
+  specs:
+    api-umbrella-status-checks (0.0.1)
+      sensu-plugin (~> 4.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json (2.6.1)
+    mixlib-cli (1.7.0)
+    sensu-plugin (4.0.0)
+      json (< 3.0.0)
+      mixlib-cli (~> 1.5)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  api-umbrella-status-checks!
+
+BUNDLED WITH
+   2.3.5
